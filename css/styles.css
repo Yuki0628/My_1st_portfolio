@@ -138,7 +138,7 @@ header .container {
 }
 
 
-.skill_container div {
+.skillcontents {
   padding-right: 30px;
 }
 
@@ -311,10 +311,6 @@ footer {
 
 /* leyout for smartphone */
 
-@media screen and (max-width: 959px) {
-  /* 959px以下のデザイン(For Tablet) */
-}
-
 @media screen and (max-width: 576px) {
   /* 600px以下のデザイン(For Smart Phone) */
 
@@ -350,11 +346,22 @@ footer {
     height: 1000px;
     margin-top: 80px;
     background-position: center;
-
   }
+
+  .myskills h1 {
+    padding-bottom: 12px;
+  }
+
+  .skilldescription {
+    padding-top: -10px;
+  }
+
+
 
   .skill_container {
     display: block;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .skillcontents {
