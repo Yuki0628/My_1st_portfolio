@@ -1,0 +1,392 @@
+/* 全体設定 */
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  color: #333333;
+}
+ul {
+  list-style: none;
+}
+
+
+/* fontawesomeの設定まとめ */
+.fontawesomeicon{
+  font-size: 3rem;
+}
+.htmlicon {
+  color: rgb(255, 145, 94);
+}
+.cssicon {
+  color: rgb(94, 169, 255);
+}
+.translateicon {
+  color: rgb(94, 255, 129);
+}
+.wordpressicon {
+  color: rgb(39, 35, 35);
+}
+
+/* nav */
+nav{
+  margin-right: 0;
+}
+
+.nav-item :hover{
+  background: rgba(235, 235, 235, 0.877);
+}
+
+
+header .container {
+  background: rgba(235, 235, 235, 0.726);
+  position: fixed;
+  width: 100%;
+  max-width: none;
+}
+
+
+/* top */
+.top-container {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  background-image: url(../img/background/fv1.jpg);
+  background-size: contain;
+  background-position:center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+
+.top-container h1 {
+  color: white;
+}
+
+/* About Me */
+.aboutme_container {
+  height: 400px;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.photocontainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myicon {
+  height: 270px;
+  width: 270px;
+  background-image: url(../img/icons/myicon.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.aboutme_description {
+  width: 50%;
+  height: 100%;
+  font-size: 18px;
+  padding-left: 30px;
+  color: #333333;
+}
+
+.aboutme_description h1 {
+  padding: 20px 0;
+}
+
+.aboutme_description p {
+  padding-bottom: 5px;
+}
+
+/* My Skills */
+.myskills {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  background-image: url(../img/background/tool-1957451_1920.jpg);
+  background-size: cover;
+}
+
+.myskills h1{
+  color: #fff;
+  text-shadow: 1px 2px 3px black;
+}
+
+.skill_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.skill_container h2 {
+  color: white;
+  text-shadow: 1px 2px 3px black;
+}
+
+.skilldescription{
+  color: white;
+  text-shadow: 1px 2px 3px black;
+}
+
+
+.skill_container div {
+  padding-right: 30px;
+}
+
+
+
+/* My Works */
+.myworks {
+  height: 650px;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.myworks h1 {
+  margin-bottom: 50px;
+}
+
+.works_container {
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+  margin: 0 auto;
+  /* background:red; */
+
+}
+
+.workslist  {
+  display: flex;
+  height: 50%;  
+  width: 100%;
+  padding-left: 0;
+  align-items: center;
+}
+
+.workslist1 {
+  margin-bottom: 0;
+}
+
+.workslistdesc {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* itemの共通項 */
+.worksitems {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 33.33%;
+  height: 85%;
+  margin: 15px;
+}
+
+.workslistdesc p {
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+
+.workslist a {
+  text-decoration: none;
+  /* 以下の4行でaタグの範囲を拡張 */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.4s;
+  display: block;
+
+}
+
+.workslist a:hover {
+  opacity: 1;
+  background-color: rgba(65, 65, 65, 0.623);
+
+}
+
+/* itemの個別設定 */
+.item1  {
+  background-image: url(../img/background/itokoreapage.png);
+}
+
+.item2  {
+  background-image: url(../img/background/coming-soon-hour-glass-4721933_1280.png);
+}
+
+.item3  {
+  background-image: url(../img/background/coming-soon-hour-glass-4721933_1280.png);
+}
+
+.item4  {
+  background-image: url(../img/background/coming-soon-hour-glass-4721933_1280.png);
+}
+
+.item5  {
+  background-image: url(../img/background/coming-soon-hour-glass-4721933_1280.png);
+}
+
+.item6  {
+  background-image: url(../img/background/coming-soon-hour-glass-4721933_1280.png);
+}
+
+
+
+/* contactform */
+.contact {
+  height: 1000px;
+  width: 100%;
+  margin-top: 200px;
+  text-align: center;
+  color: #333333;
+}
+
+.contact h1 {
+  padding-top: 30px;
+}
+
+.contact-form {
+  margin-top: 70px;
+  height: 600px;
+  width: 100%;
+}
+
+/* sns-container */
+.snscontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.snsicon {
+  transition: 0.2s;
+}
+
+.fbicon {
+  color: rgb(109, 134, 243);
+}
+
+.twicon {
+  margin: 0 37px;
+  color: skyblue;
+}
+
+.instaicon {
+  color: pink;
+
+}
+
+.snsicon:hover {
+  transform: scale(1.5)
+}
+
+
+/* footer */
+footer {
+  background: rgba(235, 235, 235, 0.726);
+  width: 100%;
+  height: 50px;
+  margin-top: 100px;
+  color:#333333;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+/* leyout for smartphone */
+
+@media screen and (max-width: 959px) {
+  /* 959px以下のデザイン(For Tablet) */
+}
+
+@media screen and (max-width: 576px) {
+  /* 600px以下のデザイン(For Smart Phone) */
+
+  /* about me */
+  .aboutme_container {
+    display: block;
+    margin-top: -300px;
+    height: 800px;
+    text-align: center;
+  }
+
+  .photocontainer {
+    margin: 0 auto;
+    width: 100%;
+    height: 700px;
+    /* height: 100%; */
+    margin-bottom: -200px;
+  }
+
+  .aboutme_description{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .aboutme_description p {
+    padding-bottom: 0;
+  }
+
+  /* skill container */
+
+  .myskills {
+    height: 1000px;
+    margin-top: 80px;
+    background-position: center;
+
+  }
+
+  .skill_container {
+    display: block;
+  }
+
+  .skillcontents {
+    padding: 10px 0;
+  }
+
+  /* works */
+  .myworks {
+    height: 1250px;
+    /* background-color: red; */
+  }
+
+  .worklist {
+    display: block;
+  }
+
+  .works_container {
+    width: 80%;
+    height: auto;
+    /* background-color: red; */
+  }
+
+  .workslist {
+    display:block;
+    height: 100%;
+  }
+
+  .worksitems {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+}
