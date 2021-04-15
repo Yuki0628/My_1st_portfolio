@@ -46,6 +46,11 @@ header .container {
   max-width: none;
 }
 
+ .selected {
+  text-decoration-line: underline;
+  font-weight: bold;
+}
+
 
 /* top */
 .top-container {
